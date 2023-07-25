@@ -23,7 +23,7 @@ export const About = () => {
           <h3 className='About_write'>IMPORTANCE OF OUR CUSTOMER</h3>
           <p>Our barbershop places a significant value on offering the best service and attention to its customers. We pay attention to their wants and preferences and work hard to develop our services to suit their standards. Our consumers are more than simply customers;
             they are members of our community.</p>
-            <button>Book Section</button>
+            <button className="btn">Book Section</button>
         </div>
       </div>
     </div>
