@@ -1,0 +1,62 @@
+.FooterMain{
+  color: #fff;
+  padding: 0 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+.FooterContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.FooterTitle{
+  font-size: 20px;
+}
+.FooterImg img{
+  width: 70px;
+}
+.FooterBtn a{
+  text-decoration: none;
+  color: #000;
+  background: white;
+  width: 100%;
+  height: 100%;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: all 1s ease-in-out;
+  margin: 20px;
+}
+.FooterBtn a:hover{
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  border: 2px solid #fff;
+}
+.FooterBook{
+  font-size: 15px;
+  padding: 10px ;
+  margin-left: 30px auto;
+}
+.FooterBook h2{
+  padding: 0 0 5px;
+  font-size: 15px;
+}
+.FooterIcon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.956rem;
+  font-size: 20px;
+}
+.FooterTitle{
+  width: 400px;
+  height: 100%;
+  padding: 20px ;
+}
