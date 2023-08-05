@@ -3,6 +3,7 @@ import Logo from '../../assets/logo.jpeg';
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export const Footer = () => {
+  
   return (
     <div className='FooterMain'>
       <div className='FooterContainer'>
