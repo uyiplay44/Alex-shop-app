@@ -18,10 +18,10 @@ export const Footer = () => {
         <div className='FooterTitle'>
           <h3>Contact</h3>
           <p>6 akpoguma Street,by kilo bus-stop Masha/kilo
-            Surulere 100011, Lagos , Nigeria</p>
+            Surulere 100011, Lagos , Nigeria.</p>
         </div>
         <div className='FooterBtn'>
-          <a href="/">Make Your Booking</a>
+          <a href="/contact">Make Your Booking</a>
         </div>
         <div className='FooterBook'>
           <h2>Buisness Hours</h2>

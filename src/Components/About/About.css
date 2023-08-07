@@ -210,6 +210,15 @@
     justify-content: center;
     align-items: center;
   }
+  .About_1 img{
+    width: 400px;
+    height: 100%;
+  }
+  .About_2 img{
+    width: 450px;
+    height: 100%;
+    padding-right: 70px;
+  }
 
 }
 
@@ -238,11 +247,12 @@
   }
   .About_1 img{
     width: 400px;
-    height: auto;
+    height: 100%;
   }
   .About_2 img{
-    width: 400px;
+    width: 450px;
     height: 100%;
+    padding-right: 70px;
   }
   .About_container{
     display: flex;

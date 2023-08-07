@@ -9,17 +9,17 @@ export const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const handleClick = () => {
-    setNav(!nav)
+    setNav(!nav);
   }
   return (
     <div className='Navbar_main'>
       <div className='Nav_logo'>
-        <Link><img src={Logo} alt="nav" /></Link>
+        <Link to="/"><img src={Logo} alt="nav" /></Link>
       </div>
       <ul className={nav ? "Nav-list active" : "Nav-list"}>
         <li><Link to="/" className='link'>Home</Link></li>
         <li><Link to="/" className='link'>About</Link></li>
-        <li><Link to="/" className='link'>Contact</Link></li>
+        <li><Link to="/contact" className='link'>Contact</Link></li>
       </ul>
 
       <div className='Menu' onClick={handleClick}>

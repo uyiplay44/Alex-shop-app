@@ -1,40 +1,40 @@
-.Navbar_main{
+.Navbar_main {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 10rem;
   background-color: #000;
-}
-.Nav_logo img{
-  width: 70px;
-  height: 100%;
-  position: relative;
-  left: 80%;
+  /* position: fixed;
   top: 0;
-  padding: 20px;
+  left: 0;
+  right: 0;
+  z-index: 100; */
 }
-.Nav-list{
+.Nav_logo img {
+  width: 70px;
+  height: auto;
+}
+.Nav-list {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 5rem;
 }
-.link{
+.link {
   color: #fff;
   text-decoration: none;
   list-style: none;
 }
-li{
+li {
   list-style: none;
 }
-.Menu{
+.Menu {
   display: none;
 }
 
-@media screen and (max-width:960px){
-  .Nav-list{
+@media screen and (max-width: 960px) {
+  .Nav-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,10 +49,10 @@ li{
     background: black;
     z-index: 10;
   }
-  .active{
+  .active {
     left: 0;
   }
-  .Menu{
+  .Menu {
     display: block;
     position: absolute;
     right: 1rem;
@@ -65,8 +65,8 @@ li{
   }
 }
 
-@media screen and (max-width:720px){
-  .Nav-list{
+@media screen and (max-width: 720px) {
+  .Nav-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,10 +81,10 @@ li{
     background: black;
     z-index: 10;
   }
-  .active{
+  .active {
     left: 0;
   }
-  .Menu{
+  .Menu {
     display: block;
     position: absolute;
     right: 1rem;
@@ -97,9 +97,8 @@ li{
   }
 }
 
-
-@media screen and (max-width:640px){
-  .Nav-list{
+@media screen and (max-width: 640px) {
+  .Nav-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,10 +113,10 @@ li{
     background: black;
     z-index: 10;
   }
-  .active{
+  .active {
     left: 0;
   }
-  .Menu{
+  .Menu {
     display: block;
     position: absolute;
     right: 1rem;
@@ -130,14 +129,12 @@ li{
   }
 }
 
-
-
-@media screen and (max-width:550px){
-  .Nav-list{
+@media screen and (max-width: 550px) {
+  .Nav-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: fixed;
+    position: absolute;
     left: 100%;
     right: 0;
     bottom: 0;
@@ -148,11 +145,13 @@ li{
     background: black;
     z-index: 10;
   }
-  .active{
+  .active {
     left: 0;
   }
-  .Menu{
-    display: block;
+  .Menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     right: 1rem;
     bottom: 0;
@@ -161,5 +160,12 @@ li{
     font-size: 20px;
     cursor: pointer;
     z-index: 10;
+  }
+  .Nav_logo img {
+    width: 70px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

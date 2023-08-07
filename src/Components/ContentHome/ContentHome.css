@@ -4,7 +4,7 @@
   background: #000000;
   background-position: calc(100% 100%) center;
   background-size: cover;
-  background-repeat: no-repeat;
+  padding: 4px;
 }
 .word h2 {
   width: 300px;
@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 20px;
+  padding: 60px;
 }
 .Home-title p {
   width: 400px;
@@ -31,10 +31,7 @@ video {
   width: 400px;
   height: 100%;
   border-radius: 20px;
-  /* position:absolute; */
-  top: 0;
-  left: 60%;
-  right: 0;
+  margin: 30px;
 }
 
 @media screen and (max-width: 1150px) {
@@ -49,16 +46,15 @@ video {
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1020px) {
   .Home-container {
     width: 100%;
+    height: auto;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: space-around;
     background-image: url(../../assets/photo25.jpeg);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
   }
   video {
@@ -138,7 +134,7 @@ video {
     justify-content: center;
     width: 100%;
     background-image: url(../../assets/photo25.jpeg);
-    background-position: center;
+    background-position: calc(100%);
     background-repeat: no-repeat;
     background-size: cover;
   }
