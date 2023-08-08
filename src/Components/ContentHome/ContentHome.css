@@ -4,7 +4,6 @@
   background: #000000;
   background-position: calc(100% 100%) center;
   background-size: cover;
-  padding: 4px;
 }
 .word h2 {
   width: 300px;
@@ -19,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 60px;
+  padding: 20px;
 }
 .Home-title p {
   width: 400px;
@@ -31,7 +30,7 @@ video {
   width: 400px;
   height: 100%;
   border-radius: 20px;
-  margin: 30px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1150px) {
@@ -39,7 +38,11 @@ video {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url(../../assets/photo25.jpeg);
+    background-image: linear-gradient(
+        rgba(46, 44, 44, 0.9),
+        rgba(247, 239, 239, 0.1)
+      ),
+      url(../../assets/photo25.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,7 +56,11 @@ video {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url(../../assets/photo25.jpeg);
+    background-image: linear-gradient(
+        rgba(46, 44, 44, 0.9),
+        rgba(247, 239, 239, 0.1)
+      ),
+      url(../../assets/photo25.jpeg);
     background-position: center;
     background-size: cover;
   }
@@ -72,7 +79,11 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../../assets/photo25.jpeg);
+    background-image: linear-gradient(
+        rgba(46, 44, 44, 0.9),
+        rgba(247, 239, 239, 0.1)
+      ),
+      url(../../assets/photo25.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +103,11 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../../assets/photo25.jpeg);
+    background-image: linear-gradient(
+        rgba(46, 44, 44, 0.9),
+        rgba(247, 239, 239, 0.1)
+      ),
+      url(../../assets/photo25.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +127,11 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../../assets/photo25.jpeg);
+    background-image: linear-gradient(
+        rgba(46, 44, 44, 0.9),
+        rgba(247, 239, 239, 0.1)
+      ),
+      url(../../assets/photo25.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,8 +152,12 @@ video {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-image: url(../../assets/photo25.jpeg);
-    background-position: calc(100%);
+    background-image: linear-gradient(
+        rgba(46, 44, 44, 0.9),
+        rgba(247, 239, 239, 0.1)
+      ),
+      url(../../assets/photo25.jpeg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }

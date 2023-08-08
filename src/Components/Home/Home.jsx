@@ -9,8 +9,8 @@ export const Home = () => {
     <div>
       <ContentHome />
       <About />
-      <Testimonial />
-      <PhotoBox />
+      {/* <Testimonial /> */}
+      {/* <PhotoBox /> */}
     </div>
   )
 }
