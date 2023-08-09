@@ -51,6 +51,13 @@
   justify-content: center;
   padding-right: 1rem;
 }
+@media screen and (max-width: 980px){
+  .TestimonialMain{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 750px){
   .TestimonialMain{
     width: auto;

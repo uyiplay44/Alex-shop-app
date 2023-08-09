@@ -95,7 +95,7 @@
     align-items: center;
   }
 }
-@media screen and (max-width:1050px){
+@media screen and (max-width:1200px){
   .About-main{
     width: 100%;
     height: 100%;
@@ -128,7 +128,8 @@
     margin-left: 40px;
   }
 }
-@media screen and (max-width:950px){
+
+@media screen and (max-width:1025px){
   .About-main{
     width: 100%;
     height: 100%;
@@ -136,57 +137,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
   }
   .About-section-1{
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    gap: 2rem;
   }
   .About-section-2{
     width: 100%;
     height: 100%;
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
+  
   }
-  .About_1 img{
-    width: 400px;
-    height: auto;
-    margin-right: 40px;
+  .About_container p{
+    width: 100%;
   }
-  .About_2 img{
-    width: 250px;
-    height: 100%;
-    margin-left: 40px;
+  .About-section-2 p{
+    width: 100%;
   }
 }
-@media screen and (max-width:750px){
-  .About-main{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .About-section-1{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .About-section-2{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-@media screen and (max-width:670px){
+@media screen and (max-width:768px){
   .About-main{
     width: 100%;
     height: 100%;
@@ -219,10 +196,13 @@
     height: 100%;
     padding-right: 70px;
   }
-
+  .About_container_1 p{
+   width: 100%;
+   height: 100%;
+  }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 480px){
   .About-main{
     width: 100%;
     height: 100%;
@@ -257,6 +237,7 @@
   .About_container{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 20px 0;
   }
   .About_container p{
@@ -271,6 +252,7 @@
   }
   .About_container_1{
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 }
