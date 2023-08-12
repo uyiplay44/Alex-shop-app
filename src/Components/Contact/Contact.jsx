@@ -6,7 +6,8 @@ export const Contact = () => {
     <div className='ContactMain'>
       <div className='ContactContainer'>
         <form>
-          
+          <label htmlFor=""> Name</label>
+          <input type="text" />
         </form>
       </div>
     </div>
