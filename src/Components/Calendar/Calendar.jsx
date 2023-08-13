@@ -1,7 +1,13 @@
-import React from 'react'
+import { Calendar } from 'primereact/calendar';
 
-export const Calendar = () => {
+import React, { useState } from "react";
+
+export default function BasicDemo() {
+  const [date, setDate] = useState(null);
+
   return (
-    <div>Calendar</div>
+    <div className="card flex justify-content-center">
+      <Calendar value={date} onChange={(e) => setDate(e.value)} />
+    </div>
   )
 }

@@ -1,8 +1,11 @@
 import './About.css'
 import photo35 from '../../assets/photo35.jpg';
 import photo25 from '../../assets/photo25.jpeg';
+import { useState } from 'react';
 
 export const About = () => {
+  const [nav, setNav] = useState()
+
   return (
     <div className='About-main'>
       <div className="About-section-1">
@@ -23,7 +26,9 @@ export const About = () => {
           <h3 className='About_write'>IMPORTANCE OF OUR CUSTOMER</h3>
           <p>Our barbershop places a significant value on offering the best service and attention to its customers. We pay attention to their wants and preferences and work hard to develop our services to suit their standards. Our consumers are more than simply customers;
             they are members of our community.</p>
-            <button className="btn">Book Section</button>
+          <button className="btn"
+            type='submit' onClick={() => setNav(nav)}
+          >Book Section</button>
         </div>
       </div>
     </div>
