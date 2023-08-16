@@ -1,13 +1,12 @@
 import React from 'react'
+import './Help.css'
 
 export const Help = () => {
   return (
     <div className='HelpMain'>
       <div className='HelpContainer'>
         <div className="HelpBar1">
-          <h1>Get in touch</h1>
-          <h2>Drop us a line</h2>
-          <form action="">
+          <form action="submit" className='HelpForm'>
             <h2>Name</h2>
             <label htmlFor="calendar-">First Name</label>
             <input type="text" name="" id="" />
@@ -17,7 +16,8 @@ export const Help = () => {
             <input type="text" name="" id="" />
             <label htmlFor="calendar-">Email</label>
             <input type="text" name="" id="" />
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="" id="text" cols="30" rows="10"></textarea>
+            <button>Submit</button>
           </form>
         </div>
         <div className="HelpBar2">
