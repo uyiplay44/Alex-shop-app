@@ -1,29 +1,29 @@
-import './Footer.css'
-import Logo from '../../assets/logo.jpeg';
-import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import Logo from "../../assets/images/logo.jpeg";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
-export const Footer = () => {
-  
+const Footer = () => {
   return (
-    <div className='FooterMain'>
-      <div className='FooterContainer'>
-        <div className='FooterImg'>
+    <div className="FooterMain">
+      <div className="FooterContainer">
+        <div className="FooterImg">
           <img src={Logo} alt="" />
-          <div className='FooterIcon'>
+          <div className="FooterIcon">
             <FaFacebook />
             <FaInstagram />
             <FaWhatsapp />
           </div>
         </div>
-        <div className='FooterTitle'>
+        <div className="FooterTitle">
           <h3>Contact</h3>
-          <p>6 akpoguma Street,by kilo bus-stop Masha/kilo
-            Surulere 100011, Lagos , Nigeria.</p>
+          <p>
+            6 akpoguma Street,by kilo bus-stop Masha/kilo Surulere 100011, Lagos
+            , Nigeria.
+          </p>
         </div>
-        <div className='FooterBtn'>
+        <div className="FooterBtn">
           <a href="/contact">Make Your Booking</a>
         </div>
-        <div className='FooterBook'>
+        <div className="FooterBook">
           <h2>Buisness Hours</h2>
           <p>Mon: Closed</p>
           <p>Tue: 9:00 AM - 9:00 PM</p>
@@ -35,5 +35,7 @@ export const Footer = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default Footer;

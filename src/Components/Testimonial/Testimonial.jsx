@@ -1,5 +1,5 @@
 import './Testmonial.css'
-import star2 from '../../assets/Star2.png'
+import star2 from '../../assets/images/Star2.png'
 
 export const Testimonial = () => {
   return (

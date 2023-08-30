@@ -42,9 +42,8 @@ video {
         rgba(46, 44, 44, 0.9),
         rgba(247, 239, 239, 0.1)
       ),
-      url(../../assets/photo25.jpeg);
+      url(../../assets/images/photo25.jpeg) no-repeat;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
   }
 }
@@ -56,13 +55,6 @@ video {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: linear-gradient(
-        rgba(46, 44, 44, 0.9),
-        rgba(247, 239, 239, 0.1)
-      ),
-      url(../../assets/photo25.jpeg);
-    background-position: center;
-    background-size: cover;
   }
   video {
     width: 80%;
@@ -79,14 +71,6 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(
-        rgba(46, 44, 44, 0.9),
-        rgba(247, 239, 239, 0.1)
-      ),
-      url(../../assets/photo25.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   video {
     width: 100%;
@@ -103,14 +87,6 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(
-        rgba(46, 44, 44, 0.9),
-        rgba(247, 239, 239, 0.1)
-      ),
-      url(../../assets/photo25.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   video {
     width: 100%;
@@ -127,14 +103,6 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(
-        rgba(46, 44, 44, 0.9),
-        rgba(247, 239, 239, 0.1)
-      ),
-      url(../../assets/photo25.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   video {
     width: 100%;
@@ -152,14 +120,6 @@ video {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-image: linear-gradient(
-        rgba(46, 44, 44, 0.9),
-        rgba(247, 239, 239, 0.1)
-      ),
-      url(../../assets/photo25.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   video {
     width: 100%;

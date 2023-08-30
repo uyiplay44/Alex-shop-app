@@ -1,22 +1,23 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home } from './Components/Home/Home';
-import { Navbar } from "./Components/Navbar/Navbar";
-import { Footer } from "./Components/Footer/Footer";
+import { Route, Routes } from "react-router-dom";
+import { Navbar, Footer } from "./Components/general";
+import { Home } from "./Components/Home/Home";
 import { Contact } from "./Components/Contact/Contact";
-
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <Navbar />
+    <>
+      <Navbar />
+
+      <main className="main-section">
         <Routes>
-          <Route path="" element={<Home />} />
+          <Route path="/" extact element={<Home />} />
+
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
-      </BrowserRouter>
-    </div>
+      </main>
+
+      <Footer />
+    </>
   );
 }
 
