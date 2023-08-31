@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Navbar, Footer } from "./Components/general";
-import { Home } from "./Components/Home/Home";
+import { Home } from "./pages";
 import { Contact } from "./Components/Contact/Contact";
 
 function App() {

@@ -1,5 +1,4 @@
-import "./ContentHome.css";
-import Video from "../../assets/videos/Video.mp4";
+import Video from "../../../assets/videos/Video.mp4";
 
 export const ContentHome = () => {
   return (

@@ -1,18 +1,17 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/logo.jpg";
 import { RiCloseFill, RiMenu3Fill } from "react-icons/ri";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const headerRef = useRef(null);
 
   const handleClick = () => {
     setNav(!nav);
   };
 
   return (
-    <header ref={headerRef} className="Navbar_main">
+    <header className="Navbar_main">
       <div className="Nav_logo">
         <Link to="/">
           <img src={Logo} alt="nav" />

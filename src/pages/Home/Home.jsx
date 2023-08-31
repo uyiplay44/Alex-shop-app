@@ -1,16 +1,21 @@
-import React from 'react';
-import { About } from '../About/About';
-import { ContentHome } from '../ContentHome/ContentHome';
-import { Testimonial } from '../Testimonial/Testimonial';
-import { PhotoBox } from '../PhotoBox/PhotoBox';
+import React from "react";
+import { About } from "../About/About";
+import { ContentHome } from "./inn/ContentHome";
+import Testimonial from "./inn/Testimonial";
+import { PhotoBox } from "./inn/PhotoBox";
 
-export const Home = () => {
+const Home = () => {
   return (
-    <div>
+    <>
       <ContentHome />
+
       <About />
+
       <Testimonial />
+
       <PhotoBox />
-    </div>
-  )
-}
+    </>
+  );
+};
+
+export default Home;

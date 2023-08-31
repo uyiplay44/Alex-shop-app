@@ -1,22 +1,26 @@
 import React from "react";
-import "./Help.css";
 
 export const Help = () => {
   return (
     <div className="HelpMain">
       <div className="HelpContainer">
         <div className="HelpBar1">
-          <form action="submit" className="HelpForm">
-            <h2>Name</h2>
-            <label htmlFor="calendar-">First Name</label>
-            <input type="text" name="" id="" />
-            <label htmlFor="calendar-">Last Name</label>
-            <input type="text" name="" id="" />
-            <label htmlFor="calendar-">Phone Number</label>
-            <input type="text" name="" id="" />
-            <label htmlFor="calendar-">Email</label>
-            <input type="text" name="" id="" />
-            <textarea name="" id="text" cols="30" rows="10"></textarea>
+          <form className="HelpForm">
+            <div className="input-name">
+              <div>
+                <input type="text" name="" id="" placeholder="Firstname" />
+              </div>
+              <div>
+                <input type="text" name="" id="" placeholder="Lastname" />
+              </div>
+            </div>
+            <div>
+              <input type="text" name="" id="" placeholder="Phonenumber" />
+            </div>
+            <div>
+              <input type="text" name="" id="" placeholder="Email" />
+            </div>
+            <textarea name="" id="text" placeholder="Message"></textarea>
             <button>Submit</button>
           </form>
         </div>
